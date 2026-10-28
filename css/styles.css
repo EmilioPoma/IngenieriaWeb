@@ -215,7 +215,7 @@ footer.mainFooter p {
    TABLET
 ================================= */
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
 
     header.mainHeader,
     section.mainSlider,
@@ -254,7 +254,7 @@ footer.mainFooter p {
    MÓVILES
 ================================= */
 
-@media (max-width: 700px) {
+@media (max-width: 450px) {
 
     header.mainHeader {
         width: 100%;
@@ -490,7 +490,21 @@ body.bodyLogin::before {
     font-size: 14px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
+    body.bodyLogin::before {
+        background-image: url("../../IngWeb/public/fondo.jpg");
+    }
+}
+
+@media (max-width: 450px) {
+    body.bodyLogin {
+        background-color: #3c5e91;
+    }
+
+    body.bodyLogin::before {
+        display: none;
+    }
+
     .wrapper {
         padding: 28px 22px;
     }
