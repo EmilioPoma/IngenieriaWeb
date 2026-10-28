@@ -1,0 +1,23 @@
+body{
+    background: blue ;
+}
+header{
+    background: black;
+    color: #AA0000;
+}
+
+
+/*Llamada de estilos a las clases*/
+.cabeceraPrincipal{
+    font-size: 30px;
+    color: #fff;
+}
+
+header nav a.menu1{
+    
+}
+
+/*Llamada de estilos a los ID*/
+#principal{
+    background: red ;
+}
